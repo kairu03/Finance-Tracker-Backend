@@ -16,7 +16,9 @@ const PORT = process.env.PORT || 5001;
 
 app.use(
   cors({
-    origin: 'https://finance-tracker-kairu03.vercel.app/'
+    origin: 
+    ['http://localhost:5173',
+    'https://finance-tracker-kairu03.vercel.app/']
   }));
 
 // middleware
