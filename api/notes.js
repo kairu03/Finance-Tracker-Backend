@@ -1,5 +1,6 @@
 import express from 'express';
-import connectDB from '../src/db.js';
+// api/notes.js
+import connectDB from '../config/db.js';
 import Note from '../models/Note.js';
 import cors from 'cors';
 
